@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "idobata-app",
+    "slug": "idobata-app",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./lib/assets/icon.png",
+    "splash": {
+      "image": "./lib/assets/idobata-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#36312f"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "red.mk2.idobataapp"
+    }
+  }
+}

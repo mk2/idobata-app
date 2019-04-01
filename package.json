@@ -1,0 +1,41 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "expo": "^32.0.6",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11",
+    "luxon": "^1.11.3",
+    "react": "16.5.0",
+    "react-apollo": "^2.5.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-elements": "^1.1.0",
+    "react-native-htmlview": "^0.13.0",
+    "react-navigation": "^3.3.2",
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/expo": "^32.0.2",
+    "@types/expo__vector-icons": "^9.0.0",
+    "@types/graphql": "^14.0.5",
+    "@types/lodash": "^4.14.120",
+    "@types/luxon": "^1.11.1",
+    "@types/react": "^16.8.2",
+    "@types/react-native": "^0.57.35",
+    "@types/react-native-elements": "^0.18.0",
+    "@types/react-native-htmlview": "^0.12.2",
+    "@types/react-navigation": "^3.0.1",
+    "babel-preset-expo": "^5.0.0",
+    "tslint": "^5.13.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3333"
+  },
+  "private": true
+}
